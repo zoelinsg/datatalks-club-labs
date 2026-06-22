@@ -1,6 +1,7 @@
 # Environment variables
 .env
-.env.*
+.env.local
+.env.*.local
 
 # Python
 __pycache__/
@@ -14,7 +15,6 @@ env/
 
 # Poetry
 # Keep poetry.lock for reproducible installs
-# poetry.lock
 
 # OS / Editor
 .DS_Store
