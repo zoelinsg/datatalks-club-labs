@@ -15,6 +15,19 @@ __pycache__/
 venv/
 env/
 
+# Python
+__pycache__/
+*.py[cod]
+
+# dlt / DuckDB local artifacts
+*.duckdb
+*.duckdb.wal
+.dlt/
+**/.dlt/
+
+# Local generated trace data
+llm-zoomcamp/06-dlt-traces/data/
+
 # Poetry
 # Keep poetry.lock for reproducible installs
 
