@@ -2,11 +2,13 @@
 .env
 .env.local
 .env.*.local
+!.env.example
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 
 # Virtual environments
 .venv/
@@ -15,6 +17,10 @@ env/
 
 # Poetry
 # Keep poetry.lock for reproducible installs
+
+# Local telemetry data
+traces.db
+**/traces.db
 
 # OS / Editor
 .DS_Store

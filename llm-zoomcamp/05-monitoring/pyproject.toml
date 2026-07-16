@@ -1,0 +1,22 @@
+[project]
+name = "llm-zoomcamp-hw5"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "zoelinsg",email = "zoelin.sg@gmail.com"}
+]
+requires-python = "^3.12"
+dependencies = [
+    "gitsource (>=0.0.5,<0.0.6)",
+    "minsearch (>=0.2.0,<0.3.0)",
+    "openai (>=2.45.0,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "opentelemetry-api (>=1.43.0,<2.0.0)",
+    "opentelemetry-sdk (>=1.43.0,<2.0.0)",
+    "pandas (>=3.0.3,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
